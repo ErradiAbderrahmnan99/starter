@@ -24,6 +24,12 @@ return [
         'token' => env('POSTMARK_TOKEN'),
     ],
 
+    'facebook' => [
+        'client_id' => env ( 'FB_CLIENT_ID' ),
+        'client_secret' => env ( 'FB_CLIENT_SECRET' ),
+        'redirect' => env ( 'FB_REDIRECT' )
+    ],
+
     'ses' => [
         'key' => env('AWS_ACCESS_KEY_ID'),
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
